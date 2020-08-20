@@ -1,0 +1,8 @@
+{
+  "name": "Example_for_Frontend",
+  "version": "1.0.0",
+  "description": "Task to simple page with css",
+  "main": "index.js",
+  "author": "Maks <acad.teh@gmail.com>",
+  "license": "MIT"
+}
