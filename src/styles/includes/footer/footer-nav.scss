@@ -1,0 +1,13 @@
+.footer-nav {
+
+    &__item{
+        padding: 0 40px;
+    }
+
+    &__link {
+        color: $white-400;
+        font: $font-size-m $font-corbel;
+        @extend %text-uppercase;
+        line-height: 1.258;
+    }
+}

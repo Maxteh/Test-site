@@ -1,0 +1,21 @@
+.search {
+
+    &__input {
+        font: $font-size $font-corbelLight;
+        color: $black-400;
+        @extend %text-uppercase;
+        line-height: 1.12;
+        border: 1px solid $blue-400;
+        border-radius: 10px;
+        padding: 3px 35px 2px;
+        max-width: 155px;
+        @extend  %border-box;
+
+        &::placeholder {
+            background-image: url('../assets/images/search.png');
+            background-repeat: no-repeat;
+            background-position: 10px 5px;
+
+          }
+    }
+}

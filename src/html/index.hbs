@@ -1,0 +1,27 @@
+<%= _.template(require('./includes/header.html'))() %>
+    <div class="content content--margin">
+        <%= _.template(require('./includes/personal.html'))() %>
+        <section class="seo">
+            <div class="block">
+                <div class="block__image">
+                    <img class="block__image-item" src="<%= require('../assets/images/first.jpg').default %>" alt="Обучение эффективной работе с клиентом">
+                </div>
+                <div class="block__content">
+                    <h2 class="seo__title">Обучение эффективной работе с клиентом: от&nbsp;приветствия до кассы</h2>
+                    <p class="seo__text">После приобретения программы мы бесплатно обучим Ваших сотрудников эффективной работе с клиентом. Обучение будет включать:</p>
+                    <ul class="check-list">
+                        <li class="check-list__item">
+                           <span class="check-list__text">Наши практические наработки о том, как максимально эффективно помочь клиенту сделать выбор и убедить о покупке, запустив «Сарафанное радио» для увеличения числа клиентов</span>
+                        </li>
+                        <li class="check-list__item">
+                            <span class="check-list__text">Практические удаленные занятия с персональным менеджером в виртуальной комнате, которые позволят освоить работу в программе в кратчайшие сроки. После успешной сдачи аттестации выдается именной сертификат</span>
+                        </li>
+                        <li class="check-list__item">
+                            <span class="check-list__text">Краткие информативные презентации и видеоролики о том, как повысить эффективность работы с клиентами, привлекать клиентов из соц. сетей и самостоятельно разрабатывать рекламу в программе Ceramic 3D.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+<%= _.template(require('./includes/footer.html'))() %>

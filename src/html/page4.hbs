@@ -1,0 +1,41 @@
+<%= _.template(require('./includes/header.html'))() %>
+    <div class="content">
+        <%= _.template(require('./includes/personal.html'))() %>
+        <section class="seo">
+            <div class="block">
+                <div class="block__content">
+                    <h2 class="seo__title">Как повысить скорость работы с клиентом?</h2>
+                        <p class="seo__text">Менеджер сможет быстро помочь клиенту принять решение о покупке, продемонстрировав отделочные материалы, представленные в магазине, в готовых интерьерах. Сделать это можно на сенсорной стойке, планшете или в программе Ceramic 3D. После просмотра сразу нескольких вариантов, у клиента не останется сомнений.</p>
+                        <p class="seo__text">Отредактировать проект по размерам помещения покупателя можно всего за 1,5 минуты.</p>
+                        <p class="seo__text">Клиент хочет воплотить собственную задумку? Благодаря программе Ceramic 3D создать уникальный дизайн-проект с нуля можно всего за 5 минут! У клиента остались сомнения по стоимости проекта или тому, как проект будет выглядеть в готовом виде? Продемонстрируйте созданный по размерам помещения клиента интерьер в Виртуальной реальности Ceramic 3D.</p>
+                        <p class="seo__text">Возможность оценить полноразмерную плитку и объекты, высокая фотореалистичность и возможность свободно перемещаться в проекте снимут все сомнения!</p>
+                        <p class="seo__text">Проектно-сметная документация сформируется автоматически, останется только пригласить клиента на кассу.</p>
+                </div>
+                <div class="block__image">
+                    <img class="block__image-item" src="<%= require('../assets/images/sdas.jpg').default %>" alt="Как создать фотореалистичный дизайн-проект от 1,5 минут?">
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="recall">
+        <div class="recall__container">
+                <div class="block">
+                    <div class="block__image">
+                        <div class="recall__images">
+                            <img class="recall__item" src="<%= require('../assets/images/1ws.png').default %>" alt="Ноут">
+                            <img class="recall__item-shadow" src="<%= require('../assets/images/shadow.png').default %>" alt="Тень">
+                        </div>
+                    </div>
+                    <div class="block__content">
+                    <p class="recall__text">Испытайте версию программы с полным функционалом и обширными каталогами плитки, обоев и объектов в течение 30 дней и убедитесь сами!<br>
+                                            Мы бесплатно проведем обучение Ваших сотрудников.</p>
+                        <button class="button main-button" type="button">
+                            <span class="main-button__text">Скачать программу</span>
+                        </button>
+                        <p class="recall__title">Как добиться роста экономических показателей?<br>
+                                                Аудит возможностей Вашего магазина</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+<%= _.template(require('./includes/footer.html'))() %>

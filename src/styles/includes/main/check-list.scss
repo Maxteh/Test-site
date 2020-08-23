@@ -1,0 +1,28 @@
+.check-list {
+    padding-left: 46px;
+
+    &__item {
+        padding: 20px 0 15px;
+        @extend %relative;
+
+        &:before {
+            @extend %absolute;
+            content: "";
+            background-image: url('../assets/images/agree.png');
+            background-repeat: no-repeat;
+            height: 27px;
+            width: 27px;
+            top: 27px;
+            left: -46px;
+        }
+    }
+
+    &__text {
+        font: $font-size-l $font-roboto;
+        text-align: left;
+        color: $ultra-400;
+        line-height: 1.25;
+
+    }
+
+}

@@ -1,0 +1,8 @@
+.content {
+    @extend %grid-container;
+    max-width: $width-base;
+
+    &--margin {
+        margin-bottom: 60px;
+    }
+}

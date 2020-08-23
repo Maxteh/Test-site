@@ -1,0 +1,39 @@
+@import "../../node_modules/normalize-scss/sass/normalize/import-now";
+@import "./settings/settings";
+@import "./includes/navs/nav";
+@import "./includes/buttons/button";
+@import "./includes/buttons/main-button";
+@import "./includes/header/header";
+@import "./includes/header/logo";
+@import "./includes/header/navbar";
+@import "./includes/header/country";
+@import "./includes/header/buttons-group";
+@import "./includes/header/links-group";
+@import "./includes/forms/search";
+@import "./includes/main/content";
+@import "./includes/main/block";
+@import "./includes/main/custom-list";
+@import "./includes/main/personal";
+@import "./includes/main/seo";
+@import "./includes/main/recall";
+@import "./includes/main/check-list";
+@import "./includes/main/numbers-list";
+@import "./includes/main/images-list";
+@import "./includes/footer/footer";
+@import "./includes/footer/social-links";
+@import "./includes/footer/footer-contacts";
+@import "./includes/footer/footer-nav";
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    text-transform: none;
+    overflow: visible;
+    border-radius: 0;
+}

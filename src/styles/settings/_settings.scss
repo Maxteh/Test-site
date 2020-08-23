@@ -1,0 +1,38 @@
+/* PARAMETRES */
+@import "./variables";
+
+
+/* LAYOUT */
+@import "./flex";
+
+%block {
+  display: block;
+}
+%border-box {
+  box-sizing: border-box;
+}
+
+
+
+/* TEXT DECORATION*/
+%text-uppercase {
+    text-transform: uppercase;
+  }
+%text-normal {
+    text-transform: none;
+  }
+%text-600 {
+    font-weight: 600;
+  }
+%text-400 {
+  font-weight: 400;
+  }
+
+/* POSITION */
+%relative {
+  position: relative;
+}
+
+%absolute {
+  position: absolute;
+}

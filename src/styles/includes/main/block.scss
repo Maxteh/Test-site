@@ -1,0 +1,25 @@
+.block {
+    @extend %grid-row;
+    align-items: center;
+
+    & > div:nth-child(1){
+        padding-right: 50px;
+    }
+
+
+    &__content {
+        @extend %col;
+    }
+
+    &__image {
+        @extend %grid-row;
+        @extend %col;
+    }
+
+    &__image-item {
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        padding: 3px;
+    }
+}

@@ -1,0 +1,33 @@
+.custom-list {
+    padding: 0;
+
+    &__item {
+        padding:9px 6px 10px 54px;
+        @extend %relative;
+
+        &:before {
+            @extend %absolute;
+            content: "";
+            background-color: rgb(217, 217, 217);
+            border-radius: 50%;
+            height: 17px;
+            transition-duration: 0.5s;
+            width: 17px;
+            top: calc(50% - (17px / 2));
+            left: 21px;
+        }
+
+
+        &:hover:after {
+            @extend %absolute;
+            content: "";
+            background-color: rgb(88, 117, 182);
+            border-radius: 50%;
+            height: 7px;
+            width: 7px;
+            top: calc(50% - (7px / 2));
+            left: calc(21px + ((17px / 2) - (7px / 2)));
+        }
+    }
+
+}

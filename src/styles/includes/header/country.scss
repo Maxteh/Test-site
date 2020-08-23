@@ -1,0 +1,22 @@
+.country {
+    width: 100%;
+    padding: 0 9px;
+    @extend %grid-row;
+
+    &__group {
+        padding: 8px 0 10px;
+    }
+    &__label {
+        @extend %grid-row;
+        align-items: flex-start;
+        cursor: pointer;
+    }
+    &__arrow {
+        padding: 0 6px;
+        transform: rotate(90deg);
+    }
+    &__toggle{
+        display: none;
+    }
+
+}

@@ -1,0 +1,13 @@
+.main-button {
+    background-color: transparent;
+    border: 2px solid $blue-400;
+    margin: 25px 0;
+    padding: 4px 29px;
+
+    &__text {
+        font: $font-size-l $font-roboto-medium;
+        color: $blue-400;
+        @extend %text-uppercase;
+    }
+
+}

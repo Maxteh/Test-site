@@ -1,0 +1,37 @@
+.header {
+    background-color: rgb( 255, 255, 255 );
+    box-shadow: 0 2px 6px 0 rgba( 0, 0, 0, 0.31 );
+    @extend %block;
+    @extend %relative;
+    padding: 65px 0 21px;
+    margin-bottom: 33px;
+    width: 100%;
+
+    &__test {
+        @extend %absolute;
+        height: 1px;
+        width: 100%;
+        background-color: transparent;
+        top:80px;
+    }
+    &__test2 {
+        @extend %absolute;
+        height: 1px;
+        width: 100%;
+        background-color: transparent;
+        top: 135px;
+    }
+    &__container {
+        @extend %grid-container;
+        @extend %grid-row;
+        max-width: $width-base;
+        @extend %space-around;
+    }
+
+    &__block {
+        @extend %grid-column;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+
+}

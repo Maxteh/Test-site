@@ -1,0 +1,10 @@
+.footer {
+    background-color: $blue-400;
+    padding: 8px 10px;
+
+    &__container {
+        @extend %grid-row;
+        @extend %space-around;
+        align-items: center;
+    }
+}

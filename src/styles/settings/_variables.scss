@@ -1,0 +1,61 @@
+/* PADDINGS */
+$universal-padding: 0.5rem !default;
+
+
+
+/* FONTS */
+  @font-face {
+    font-family: "Roboto";
+    src: url("../assets/fonts/Roboto-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Roboto-Medium";
+    src: url("../assets/fonts/Roboto-Medium.ttf");
+  }
+  @font-face {
+    font-family: "CorbelLight";
+    src: url("../assets/fonts/corbel-light.ttf");
+  }
+
+  @font-face {
+    font-family: "Corbel";
+    src: url("../assets/fonts/Corbel.ttf");
+  }
+
+  @font-face {
+    font-family: "Arial";
+    src: url("../assets/fonts/arial.ttf");
+  }
+
+  @font-face {
+    font-family: "Room";
+    src: url("../assets/fonts/Glen Jan - Room Bold.ttf");
+  }
+  
+
+$font-size: 15px;
+$font-size-m: 14px;
+$font-size-sm: 12px;
+$font-size-xl: $font-size * 2;
+$font-size-l: 20px;
+
+$font-roboto: "Roboto", sans-serif;
+$font-roboto-medium: "Roboto-Medium", sans-serif;
+$font-corbelLight: "CorbelLight", sans-serif;
+$font-corbel: "Corbel", sans-serif;
+$font-arial: "Arial", sans-serif;
+$font-room: "Room", sans-serif;
+
+
+/* COLORS */
+$black-400: rgb(0,0,0);
+$blue-400: rgb(54,126,193);
+$white-400: rgb(255,255,255);
+$ultra-400: rgb(46,53,65);
+$blue-500: rgb(43,104,174);
+$grey-400: rgb(243,243,243);
+
+
+/* SIZES */
+$width-base: 1522px;
+

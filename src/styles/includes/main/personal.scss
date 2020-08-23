@@ -1,0 +1,39 @@
+.personal {
+
+    &__title {
+        font:$font-size-xl $font-corbel;
+        color: $blue-400;
+        padding: 4px;
+        @extend %text-uppercase;
+        @extend %text-600;
+    }
+
+    &__image {
+        max-height: 226px;
+        background-image: url('/assets/images/cogs.png');
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+    }
+
+    &__image-item{
+        opacity: 0;
+        max-height: 226px;
+    }
+
+    &__text {
+        font: $font-size-l $font-roboto;
+        color: $ultra-400;
+        line-height: 1.25;
+        text-align: left;
+    }
+
+    &:after {
+        content: '';
+        @extend %block;
+        background-color: $blue-500;
+        height: 2px;
+        margin: 27px 1px 52px;
+        width: auto;
+    }
+}

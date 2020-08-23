@@ -1,0 +1,11 @@
+.footer-contacts {
+    @extend %grid-row;
+    @extend %space-around;
+
+    &__phone, &__email{
+        font: $font-size-m $font-arial;
+        color: $white-400;
+        padding: 0 40px;
+    }
+
+}

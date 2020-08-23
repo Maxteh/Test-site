@@ -1,0 +1,18 @@
+.buttons-group {
+    @extend %grid-row;
+    @extend %space-around;
+    width: 100%;
+
+    &__item {
+        @extend %text-uppercase;
+        background-color: $blue-400;
+        border: none;
+        color: $white-400;
+        font: $font-size-m $font-roboto;
+        margin: 0 5px;
+        padding: 5px 8px 3px;
+        line-height: 1.246;
+        text-align: center;
+        transition: all .2s ease-in;
+    }
+}

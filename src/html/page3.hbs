@@ -1,0 +1,43 @@
+<%= _.template(require('./includes/header.html'))() %>
+    <div class="content content--margin">
+        <%= _.template(require('./includes/personal.html'))() %>
+        <section class="seo">
+            <div class="block">
+                <div class="block__image images-list">
+                    <div class="images-list__item">
+                        <img class="images-list__img" src="<%= require('../assets/images/A_1 (1).png').default %>" alt="Фото 1">
+                    </div>
+                    <div class="images-list__item images-list__item--active">
+                        <img class="images-list__img" src="<%= require('../assets/images/A_1 (1).png').default %>" alt="Фото 2">
+                    </div>
+                    <div class="images-list__items">
+                        <img src="<%= require('../assets/images/12.jpg').default %>" alt="Фото 3">
+                        <img src="<%= require('../assets/images/22.jpg').default %>" alt="Фото 4">
+                    </div>
+                </div>
+                <div class="block__content">
+                    <h2 class="seo__title">Как добиться увеличение суммы среднего чека и выполнение плана продаж?</h2>
+                    <p class="seo__text">Благодаря продуктам Ceramic 3D менеджеры смогут:</p>
+                    <ol class="numbers-list">
+                        <li class="numbers-list__item">
+                           <span class="numbers-list__title">Создавайте уникальные интерьеры с применением декоров </span>
+                           <p class="numbers-list__text">Применение декоров в проекте позволит сделать интерьер более привлекательным для клиента и значительно повысит его стоимость.</p>
+                        </li>
+                        <li class="numbers-list__item">
+                            <span class="numbers-list__title">Увеличить кросс-продажи</span>
+                            <p class="numbers-list__text">В дизайн-проект можно добавить свет, напольные покрытия, двери, люстры, мебель, элементы декора и другие товары, представленные в магазине.</p>
+                        </li>
+                        <li class="numbers-list__item">
+                            <span class="numbers-list__title">Убедить клиента совершить покупку здесь и сейчас</span>
+                            <p class="numbers-list__text">Демонстрация проекта в Виртуальной реальности позволит снять сомнения клиента и преодолеть возражение по стоимости проекта. Полноразмерные отделочные материалы и объекты в созданном по размерам помещения клиента проекта позволяют по достоинству оценить проекта. Высокая фотореалистичность и возможность свободно перемещаться в проекте гарантированно создадут у покупателя WOW-эффект!</p>
+                        </li>
+                        <li class="numbers-list__item">
+                            <span class="numbers-list__title">Запустить «Сарафанное радио» (WOW-маркетинг)</span>
+                            <p class="numbers-list__text">Возможность отправить ссылку на панораму понравившегося проекта с сенсорной стойки или портала Твой интерьер не только позволит клиенту поделиться ей с близкими, чтобы оперативно принять решение о покупке, но и запустит «Сарафанное радио», что привлечет еще больше покупателей. </p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </div>
+<%= _.template(require('./includes/footer.html'))() %>

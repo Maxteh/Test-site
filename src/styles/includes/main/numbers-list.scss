@@ -1,0 +1,24 @@
+.numbers-list {
+    padding: 0 0 0 20.45px;
+
+    &__item {
+        list-style: decimal;
+        font: 600 $font-size-l $font-roboto;
+        text-align: left;
+        color: $ultra-400;
+        line-height: 1.25;
+    }
+
+    &__title {
+        @extend %text-uppercase;
+        margin-bottom: 20px;
+
+    }
+
+    &__text {
+        margin-bottom: 20px;
+        margin-left: -20.45px;
+        @extend %text-400;
+    }
+
+}

@@ -1,0 +1,34 @@
+@import "./variables";
+
+// Fluid grid system container definition.
+%grid-container {
+    margin: 0 auto;
+    padding: 0 calc(1.5 * var(#{$universal-padding}));
+  }
+// Grid row definition.
+%grid-row {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+  }
+
+// Grid column definition.
+%grid-column {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: column wrap;
+}
+
+// Alignment
+%space-around {
+  justify-content: space-around;
+}
+
+//COL
+%col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}

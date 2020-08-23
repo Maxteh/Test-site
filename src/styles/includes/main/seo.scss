@@ -1,0 +1,20 @@
+.seo {
+
+    &__title {
+        font: $font-size-xl $font-corbel;
+        @extend %text-uppercase ;
+        color: $blue-400;
+        @extend %text-600;
+        margin: 0;
+    }
+
+    &__text {
+        font: $font-size-l $font-roboto;
+        text-align: left;
+        color: $ultra-400;
+        line-height: 1.25;
+    }
+    &__numbers {
+        font: 35px $font-room;
+    }
+}

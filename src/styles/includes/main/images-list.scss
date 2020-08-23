@@ -1,0 +1,14 @@
+.images-list {
+    @extend %grid-row;
+    align-items: center;
+    justify-content: space-between;
+
+
+    &__items {
+        @extend %grid-row;
+        align-items: center;
+        margin-top: 45px;
+        @extend %space-around;
+        width: 100%;
+    }
+}

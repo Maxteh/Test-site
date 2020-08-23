@@ -1,0 +1,8 @@
+.button {
+    @extend %border-box;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    user-select: none;
+}

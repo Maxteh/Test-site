@@ -1,0 +1,14 @@
+.social-links {
+
+    &__title {
+        font:$font-size-m $font-corbel;
+        color: $white-400;
+        text-align: center;
+        @extend %text-uppercase;
+        padding-bottom: 12px;
+
+    }
+    &__icon {
+        padding: 0 10px;
+    }
+}
